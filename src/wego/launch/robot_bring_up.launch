@@ -1,3 +1,0 @@
-<launch>
-  <include file="$(find scout_bringup)/launch/scout_mini_robot_base.launch" />
-</launch>
