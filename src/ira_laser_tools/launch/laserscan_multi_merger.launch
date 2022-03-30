@@ -12,12 +12,14 @@ DESCRITPION
     <param name="scan_destination_topic" value="/scan"/>
     <param name="laserscan_topics" value ="/laser_f/scan_filtered /laser_r/scan_filtered" /> <!-- LIST OF THE LASER SCAN TOPICS TO SUBSCRIBE -->
 
-    <param name="angle_min" value="-3.14"/>
-    <param name="angle_max" value="3.14"/>
-    <param name="angle_increment" value="0.00272707710974"/>
-    <!-- <param name="angle_increment" value="0.00545415421948"/> -->
-    <param name="scan_time" value="0.0962427780032"/>
+    <param name="angle_min" value="-3.14159274101"/>
+    <param name="angle_max" value="3.14159274101"/>
+    <!-- <param name="angle_increment" value="0.00272707710974"/> -->
+    <param name="angle_increment" value="0.00545415421948"/>
+    <param name="time_increment" value="0.00006911"/>
+    <param name="scan_time" value="0.07961783"/>
     <param name="range_min" value="0.15"/>
     <param name="range_max" value="12.0"/>
   </node>
 </launch>
+
